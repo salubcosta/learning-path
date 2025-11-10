@@ -28,7 +28,9 @@ Surgiu em 1980. Objetivo é distribuir carga de trabalha. Cliente parte do usuá
 
 ## SOAP
 
-Permitir comunicação distribuída. XML
+Permitir comunicação distribuída. 
+
+Baseado em XML. Protocolo rígido. Independência de Transporte (HTTP, SMTP, TCP).
 
 ## P2P
 
@@ -36,11 +38,31 @@ Nós atuam como clientes e servidores ao mesmo tempo.
 
 ## SOA
 
-Diferente serviço interaja e funcione juntos. Serviços distintos, interfaces bem definidas e fazendo uso de protocolos de comunicação 
+Diferente serviço interaja e funcione juntos. Serviços distintos, interfaces bem definidas e fazendo uso de protocolos de comunicação.
+
+Provedor de serviço:
+- Define o serviço
+    - Implementação 
+    - Publicação
+    - Gerenciamento
+
+Consumidor de serviço:
+- Responsabilidade:
+    - Descoberta
+    - Invocação
+    - Consumo
+
+Registro de serviço:
+- Catálogo:
+    - Armazenamento
+    - Disponibilidade
+    - Facilitação de uso
 
 ## REST
 
-Criar APIs e utiliza os métodos HTTP (get, post, put, delete e patch)
+Criar APIs e utiliza os métodos HTTP (get, post, put, delete e patch).
+
+Leve, stateless (não há estado), uso de URI e formato de mensagem pode ser JSON (mais comum).
 
 ## Arquitetura Event-Driven
 

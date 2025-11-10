@@ -55,3 +55,9 @@ Notação de Peter Chen e notação de James Martin (pé de galinha)
 Medelo MER é genérico, o Diagrama DER é a materialização.
 
 `Extensão do BD => Instância -- Intenção do BD => Esquema`
+
+## Relacionamento
+
+Grau de relacionamento:
+- Binário: duas entidades envolvidas
+- Ternário: três entidades envolvidas
