@@ -1,9 +1,12 @@
 <?php
 
-class Produto {
+# __SET, __GET
+class Produto 
+{
     public $props = [];
 
-    public function __set($name, $value){
+    public function __set($name, $value)
+    {
         $this->props[$name] = $value;
     }
 
