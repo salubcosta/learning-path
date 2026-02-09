@@ -79,3 +79,6 @@ Todas as PEPs estão aqui: [PEPs](https://peps.python.org/pep-0000/)
 - pacote:
   - tudo minúsculo e não há separação, exemplo: package, mypackage
 
+<p>
+Será abordado os códigos com exemplos de boas práticas no arquivo: <code>poo_aula_03_boas_praticsa.ipynb</code>
+</p>
