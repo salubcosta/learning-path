@@ -1,0 +1,41 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+h1 {
+    color: red;
+    font-family: arial;
+}
+
+.text-red{
+    color: red;
+}
+
+.social-medias > h2 {
+    text-align: center;
+}
+.social-medias > ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+/* selecionar p logo após um h1 */
+h1 + p {
+    font-size: 12px;
+}
+
+/* selecionar um span que está dentro de um p */
+p > span {
+    font-size: 2em;
+}

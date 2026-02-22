@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário estilizado</title>
+    <link rel="stylesheet" href="./index_02.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2>Crie uma Conta</h2>
+    </header>
+    <main>
+        <form action="./index_02_sucess.html" class="form-container">
+            <div class="form-row">
+                <label for="fullName">Nome completo</label>
+                <input type="text" name="fullName" id="fullName" placeholder="Informe seu nome completo" required>
+            </div>
+            <div class="form-row">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Informe seu e-mail" required>
+            </div>
+            <div class="form-row">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Informe sua senha" required>
+            </div>
+            <div class="form-row">
+                <label for="birthDate">Data de nascimento</label>
+                <input type="date" name="birthDate" id="birthDate" required>
+            </div>
+            <div class="form-row">
+                <label>Gênero</label>
+                <select name="gender" required>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <input type="checkbox" name="policy" id="policy" required>
+                <label for="policy">Aceito as políticas de privacidade</label>
+            </div>
+            <div class="form-row">
+                <input type="submit" value="Criar conta">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

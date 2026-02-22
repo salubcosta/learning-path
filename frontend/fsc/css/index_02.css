@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-container {
+    width: 500px;
+    margin: 40px auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+}
+.form-row {
+    margin-bottom: 10px;
+}
+.form-row > label {
+    display: block;
+    font-weight: 500;
+}
+.form-row > input:not([type="submit"]), select{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    width: 100%;
+}
+input:focus {
+    outline-color: #888;
+}
+.form-row > input[type="submit"]{
+    padding: 10px;
+    color: #eee;
+    background-color: #333;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+.form-row > input[type="submit"]:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+
+label[for="policy"]{
+    display: inline;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+input#policy{
+    display: inline;
+    width: 1rem;
+}
