@@ -1,0 +1,21 @@
+.h1 {
+    position: fixed;
+    top: 50px;
+    left: 10px;
+}
+.h2 {
+    position: relative;
+    top: 100px;
+}
+.h3 {
+    position: absolute;
+    top: 5px;
+}
+
+div {
+    position: relative;
+}
+.h4 {
+    position: absolute;
+    top: 50px;
+}

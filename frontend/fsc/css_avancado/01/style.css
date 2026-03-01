@@ -1,0 +1,25 @@
+nav > li {
+    color: red;
+}
+
+ul li:first-child{
+    color: red;
+}
+ul li:last-child{
+    color: red;
+}
+ul li:nth-child(10){
+    color: red;
+}
+
+ul li:nth-child(even){
+    background-color: yellow;
+}
+ul li:nth-child(odd){
+    background-color: lime;
+}
+
+.required::before{
+    content: "*";
+    color:red;
+}
