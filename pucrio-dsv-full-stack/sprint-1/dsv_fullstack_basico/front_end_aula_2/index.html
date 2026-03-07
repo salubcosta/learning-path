@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Lista de itens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de itens</h1>
+    </header>
+    
+    <section class="item">
+        <input type="text" name="item" id="item" placeholder="Adicionar novo item" autocomplete="off" onkeydown="if(event.key==='Enter') addElemento()">
+        <span onclick="addElemento()" class="add-item">Adicionar➕</span>
+    </section>
+
+    <section>
+        <ul id="minha-lista">
+        </ul>
+        <p id="info" style="width: 88.2%;margin: 0 auto;">Nenhum item na lista</p>
+    </section>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
