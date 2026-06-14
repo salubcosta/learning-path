@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <title>Sistema de Compras - Curso Front-end</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="user">
+            <span>Usuário</span>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <img src="./images/banner1.png" alt="Banner da página">
+    </section>
+
+    <!-- Parte principal dos produtos -->
+    <section class="main-products">
+        <!-- Primeiro produto -->
+        <article class="product" id="product-1">
+            <img src="images/produto-1.png" alt="Produto 1">
+            <h3 class="price-product">
+                R$ <span>89.99</span>
+            </h3>
+            <p class="name-product">Garrafa Térmica Inteligente</p>
+            <div class="quantity">
+                <span>Quantidade:</span>
+                <button class="minus" onclick="minus(1)">-</button>
+                <input type="text" value="1" disabled id="value-quantity-1">
+                <button class="plus" onclick="plus(1)">+</button>
+            </div>
+            <button class="buy" onclick="buyProduct(1)">Comprar</button>
+        </article>
+
+        <!-- Segundo produto -->
+        <article class="product" id="product-2">
+            <img src="images/produto-2.png" alt="Produto 2">
+            <h3 class="price-product">
+                R$ <span>32.99</span>
+            </h3>
+            <p class="name-product">Garrafa Térmica Vermelha</p>
+             <div class="quantity">
+                <span>Quantidade:</span>
+                <button class="minus" onclick="minus(2)">-</button>
+                <input type="text" value="1" disabled id="value-quantity-2">
+                <button class="plus" onclick="plus(2)">+</button>
+            </div>
+            <button class="buy" onclick="buyProduct(2)">Comprar</button>
+        </article>
+
+        <!-- Terceiro produto -->
+        <article class="product" id="product-3">
+            <img src="images/produto-3.png" alt="Produto 3">
+            <h3 class="price-product">
+                R$ <span>89.99</span>
+            </h3>
+            <p class="name-product">Garrafa Térmica Preta</p>
+             <div class="quantity">
+                <span>Quantidade:</span>
+                <button class="minus" onclick="minus(3)">-</button>
+                <input type="text" value="1" disabled id="value-quantity-3">
+                <button class="plus" onclick="plus(3)">+</button>
+            </div>
+            <button class="buy" onclick="buyProduct(3)">Comprar</button>
+        </article>
+
+        <!-- Quarto produto -->
+        <article class="product" id="product-4">
+            <img src="images/produto-4.png" alt="Produto 4">
+            <h3 class="price-product">
+                R$ <span>59.99</span>
+            </h3>
+            <p class="name-product">Garrafa Térmica Ultra</p>
+             <div class="quantity">
+                <span>Quantidade:</span>
+                <button class="minus" onclick="minus(4)">-</button>
+                <input type="text" value="1" disabled id="value-quantity-4">
+                <button class="plus" onclick="plus(4)">+</button>
+            </div>
+            <button class="buy" onclick="buyProduct(4)">Comprar</button>
+        </article>
+    </section>
+
+    <footer>
+        <p>Desenvolvido durante Sprint 2 - Pós-graduação de Desenvolvimento FullStack da PUCRIO</p>
+    </footer>
+</body>
+</html>
